@@ -2,6 +2,7 @@
     --white: #fff;
     --black: #000;
     --font-color-base: #666;
+    --background-base: #e8eaec;
     --font-color-dark: #212529;
     --font-color-light: #b0aebe;
     --font-color-link: #57a6ff;
@@ -33,7 +34,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 1.6;
@@ -65,7 +66,7 @@ img {
 }
 .container {
     width: 100%;
-    padding-left: 20px;
+    padding-left: var(--size-50);
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;

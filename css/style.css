@@ -19,6 +19,9 @@
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
 }
+.navbar-toggler span {
+    pointer-events: none;
+}
 .navbar.sticky .navbar-toggler span,
 .navbar.sticky .navbar-brand {
     color: white;
@@ -41,7 +44,7 @@
     width: var(--size-150);
 }
 .navbar-nav .nav-link {
-    margin-right: 15px;
+    margin-right: 35px;
 }
 .navbar-nav .nav-link:nth-child(1) a {
     color: var(--font-color-link);
@@ -63,4 +66,112 @@
     line-height: 1.25rem;
     text-align: center;
     font-weight: 500;
+}
+/* header */
+.bg-header {
+    background-color: var(--background-base);
+    background-position: 50% 20%;
+    position: relative;
+    padding: 2.6rem 0;
+}
+.bg-header {
+    padding: var(--size-50) 0;
+}
+.bg-header::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/* empowering teams with the freedom */
+.freedom {
+    background-color: var(--background-base);
+    position: relative;
+    overflow: hidden;
+}
+.freedom-wrapper {
+    display: flex;
+    gap: 13rem;
+    height: 26rem;
+}
+.freedom-imgs div {
+    background-color: #666;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.freedom-wrapper .block-text {
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 32rem;
+}
+.freedom-wrapper .block-text h2 {
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: var(--font-color-dark);
+}
+.freedom-wrapper .freedom-imgs {
+    position: relative;
+    width: 100%;
+    z-index: 100;
+}
+.freedom-wrapper .freedom-imgs div:nth-child(1) {
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+}
+.freedom-wrapper .freedom-imgs div:nth-child(2) {
+    position: absolute;
+    top: 5.5rem;
+    right: 15.5rem;
+}
+.freedom-wrapper .freedom-imgs div:nth-child(3) {
+    position: absolute;
+    bottom: 0rem;
+    right: 2rem;
+}
+.freedom-wrapper .freedom-imgs div:nth-child(4) {
+    position: absolute;
+    width: 3.5rem;
+    padding: 0.7rem;
+    bottom: 2rem;
+    right: 18rem;
+}
+.freedom-wrapper .freedom-imgs div:nth-child(5) {
+    position: absolute;
+    width: 3.5rem;
+    padding: 0.7rem;
+    top: 0;
+    left: 1rem;
+}
+.freedom-wrapper .freedom-imgs div:nth-child(6) {
+    position: absolute;
+    top: 14rem;
+    left: 1rem;
+}
+.freedom-wrapper .freedom-imgs div:nth-child(7) {
+    position: absolute;
+    top: 13rem;
+    right: 7rem;
+}
+.freedom-imgs img {
+    width: var(--size-40);
+}
+.white-bg {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 25rem;
+    bottom: -19rem;
+    left: 5rem;
+    transform: rotate(-10deg);
 }
