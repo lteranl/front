@@ -255,3 +255,75 @@
 .software-for-people-wrapper a {
     color: var(--white);
 }
+/* why-front */
+.why-front {
+    margin: var(--size-100) 0;
+}
+.why-front-wrapper {
+    text-align: center;
+}
+.why-front-wrapper h2 {
+    margin: var(--size-10);
+    color: var(--font-color-dark);
+}
+.why-front-wrapper p {
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.options {
+    display: flex;
+    justify-content: center;
+    margin: var(--size-50) 0;
+}
+.why-front-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why-front-options > div .first {
+    background-color: #edf2fe;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+}
+.why-front-options > div > div .second {
+    background-color: #5387f7;
+    height: 0.3rem;
+    width: 0.3rem;
+    border-radius: 50%;
+}
+.why-front-options span {
+    color: var(--font-color-dark);
+    font-weight: 600;
+    margin-top: var(--size-14);
+}
+.options hr {
+    height: 3px;
+    width: 150px;
+    margin: 22px var(--size-10) 0;
+    background-color: #eeeff5;
+    border: none;
+}
+.options .hr {
+    margin-left: -20px;
+}
+.why-front-video {
+    position: relative;
+}
+.play-btn {
+    background: var(--white);
+    box-shadow: 0px 3px 9px rgb(0 0 0 / 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    left: 50%;
+}
