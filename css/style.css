@@ -100,7 +100,7 @@
 }
 .freedom-wrapper {
     display: flex;
-    gap: 13rem;
+    gap: 8rem;
     height: 26rem;
 }
 .freedom-imgs div {
@@ -117,7 +117,6 @@
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    width: 32rem;
 }
 .freedom-wrapper .block-text h2 {
     letter-spacing: 2px;
@@ -188,15 +187,6 @@
 }
 .learn-more {
     color: var(--font-color-link);
-}
-.white-bg {
-    background-color: white;
-    position: absolute;
-    width: 100%;
-    height: 25rem;
-    bottom: -19rem;
-    left: 5rem;
-    transform: rotate(-10deg);
 }
 /* key benefits */
 .key-benefits {
@@ -269,7 +259,7 @@
     color: var(--font-color-dark);
 }
 .why-front-wrapper p {
-    width: 30rem;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -339,7 +329,6 @@
     position: relative;
     width: 100%;
     display: flex;
-    width: 30rem;
     height: 30rem;
 }
 .testimonials-img img:nth-child(1) {
@@ -353,14 +342,12 @@
     position: absolute;
     height: 31rem;
     width: 30rem;
-    left: 38px;
     border-radius: 5px;
 }
 .testimonials-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30rem;
     padding-left: var(--size-20);
 }
 .testimonials-text img {
@@ -370,7 +357,6 @@
 .testimonials-text p {
     font-size: var(--size-18);
     font-weight: 600;
-    width: 23rem;
 }
 .author-name h4 {
     margin: 0.5rem 0;
@@ -395,11 +381,11 @@
 }
 /* pricing */
 .pricing-wrapper {
-    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 8rem auto;
 }
 .price-grid {
     display: grid;
@@ -455,7 +441,7 @@
     font-size: 24px;
 }
 .key-benefit-card.primary hr {
-    margin: 16px 0;
+    margin: 0 0 16px;
     padding: 1px;
     background-color: #30323d;
     opacity: 0.2;
