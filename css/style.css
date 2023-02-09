@@ -59,7 +59,6 @@
     color: var(--white);
     display: flex;
     align-items: center;
-    padding: var(--size-14);
 }
 .nav-link a {
     font-family: "Roboto Condensed", sans-serif;
@@ -230,7 +229,7 @@
     border-radius: 8px;
     background: var(--white);
     box-shadow: 0px 3px 16px rgb(0 0 0 / 10%);
-    padding: var(--size-20);
+    padding: var(--size-10);
 }
 .key-benefit-card img {
     width: var(--size-50);
@@ -422,4 +421,31 @@
 .price-grid .key-benefit-card h2,
 .price-grid .key-benefit-card:not(:first-child) h4 {
     margin: 10px 0 0;
+}
+.key-benefit-card.primary {
+    padding: 56px;
+}
+.key-benefit-card.primary h2 {
+    font-size: 56px;
+}
+.key-benefit-card.primary span {
+    font-size: 24px;
+}
+.key-benefit-card.primary hr {
+    margin: 16px 0;
+    padding: 1px;
+    background-color: #30323d;
+    opacity: 0.2;
+}
+.key-benefit-card.primary p {
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.key-benefit-card.primary p:last-child {
+    font-size: 12px;
+}
+.key-benefit-card.primary .btn-primary {
+    padding: 10px 32px;
+    font-size: bold;
+    color: var(--white);
 }

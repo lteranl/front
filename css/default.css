@@ -86,7 +86,6 @@ img {
 }
 .btn-primary {
     background-color: #477ef7;
-    height: var(--size-40);
 }
 .btn-white {
     background-color: var(--white);
