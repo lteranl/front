@@ -332,7 +332,7 @@
 /* testimonials */
 .testimonials {
     display: flex;
-    margin: 10rem auto 15rem;
+    margin: 10rem auto 10rem;
     gap: var(--size-100);
 }
 .testimonials-img {
@@ -405,7 +405,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-    padding: 50px;
+    padding: 24px;
     align-items: center;
 }
 .price-grid .primary {
@@ -421,6 +421,29 @@
 .price-grid .key-benefit-card h2,
 .price-grid .key-benefit-card:not(:first-child) h4 {
     margin: 10px 0 0;
+}
+.key-benefit-card.primary {
+    padding: 40px;
+}
+.key-benefit-card h2 {
+    font-size: 2.5rem;
+    color: var(--font-color-dark);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.key-benefit-card span {
+    font-size: 2rem;
+    color: var(--font-color-base);
+}
+.key-benefit-card .description {
+    padding: 32px 0;
+    font-size: 1.2rem;
+}
+.description .btn {
+    margin-top: 24px;
+    color: var(--white);
+    height: 54px;
+    margin-left: 10px;
 }
 .key-benefit-card.primary {
     padding: 56px;
