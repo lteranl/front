@@ -1,11 +1,9 @@
 /* navbar */
 .navbar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 700;
-    transition: ease-in-out 0.5s;
+    padding: 20px;
+    position: relative;
+    z-index: 999;
+    background-color: var(--background-base);
 }
 /* hiding nav button */
 [aria-controls="navbarDropdown"] {
@@ -33,7 +31,6 @@
     display: flex;
     align-items: center;
     height: 4rem;
-    padding-left: var(--size-50);
     padding-right: 0;
 }
 .navbar-brand {
@@ -70,27 +67,6 @@
     line-height: 1.25rem;
     text-align: center;
     font-weight: 500;
-}
-/* header */
-.bg-header {
-    background-color: var(--background-base);
-    background-position: 50% 20%;
-    position: relative;
-    padding: 2.6rem 0;
-}
-.bg-header {
-    padding: var(--size-50) 0;
-}
-.bg-header::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
 }
 /* empowering teams with the freedom */
 .freedom {
@@ -189,10 +165,9 @@
     color: var(--font-color-link);
 }
 /* key benefits */
-.key-benefits {
-    padding-right: var(--size-50);
-    padding: var(--size-150) 0 var(--size-50);
-}
+/* .key-benefits {
+    margin: 8rem 0;
+} */
 .key-benefits,
 .key-benefits-wrapper {
     text-align: center;
@@ -227,9 +202,6 @@
 /* software for people */
 .software-for-people {
     background-color: var(--background-base);
-    height: 30rem;
-    padding-right: 0;
-    margin: var(--size-100) auto;
 }
 .software-for-people-wrapper {
     display: flex;
@@ -238,21 +210,13 @@
     height: 100%;
     gap: var(--size-20);
 }
-.software-for-people-wrapper .block-text {
-    width: 29rem;
-    color: var(--font-color-dark);
-    padding-bottom: var(--size-150);
-}
 .software-for-people-wrapper a {
     color: var(--white);
 }
 /* why-front */
-.why-front {
-    margin: var(--size-100) 0;
-}
+
 .why-front-wrapper {
     text-align: center;
-    padding: 0 5rem;
 }
 .why-front-wrapper h2 {
     margin: var(--size-10);
@@ -300,9 +264,6 @@
     background-color: #30323d;
     border: none;
 }
-.options .hr {
-    margin-left: -20px;
-}
 .why-front-video {
     position: relative;
 }
@@ -322,7 +283,6 @@
 /* testimonials */
 .testimonials {
     display: flex;
-    margin: 10rem auto 10rem;
     gap: var(--size-100);
 }
 .testimonials-img {
@@ -367,8 +327,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 50px;
-    height: 300px;
 }
 .trusted-wrapper h3 {
     text-transform: uppercase;
@@ -385,13 +343,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 8rem auto;
+    /* margin: 8rem auto; */
 }
 .price-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-    padding: 24px;
     align-items: center;
 }
 .price-grid .primary {
@@ -430,9 +387,6 @@
     color: var(--white);
     height: 54px;
     margin-left: 10px;
-}
-.key-benefit-card.primary {
-    padding: 56px;
 }
 .key-benefit-card.primary h2 {
     font-size: 56px;
